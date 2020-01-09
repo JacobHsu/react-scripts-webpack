@@ -2,6 +2,33 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `npx create-react-app react-scripts-webpack`
 
+## note
+
+[如何扩展 Create React App 的 Webpack 配置](https://juejin.im/post/5a5d5b815188257327399962)
+
+`yarn eject`
+
+build `config` `scripts`
+
+package.json
+
+```js
+  "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
+  },
+```
+
+```js
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
