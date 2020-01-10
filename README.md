@@ -29,6 +29,22 @@ package.json
   },
 ```
 
+## Deploy
+
+`yarn add gh-pages -D`
+
+package.json
+
+```js
+"homepage": "https://jacobhsu.github.io/react-scripts-webpack"
+
+"scripts": {
+  //...
+  "predeploy": "yarn build",
+  "deploy": "gh-pages -d build"
+}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
