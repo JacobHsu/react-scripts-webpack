@@ -45,6 +45,26 @@ package.json
 }
 ```
 
+## package.json
+
+[Using environment variables to support CSS Grid prefixes in Create React App](https://github.com/postcss/autoprefixer#environment-variables)
+
+```js
+"browserslist": {
+  "production": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version",
+    "last 1 ie version"
+  ]
+}
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
